@@ -2570,7 +2570,7 @@ void proto_register_gvcp(void)
 
 		{ &hf_gvcp_64bitid_flag_v2_0,
 		{ "64 bit ID", "gvcp.cmd.flag.64bitid",
-		FT_BOOLEAN, 8, NULL, 0x08,
+		FT_BOOLEAN, 8, NULL, 0x10,
 		NULL, HFILL }},
 
 		{ &hf_gvcp_allow_broadcast_acknowledge_flag,
